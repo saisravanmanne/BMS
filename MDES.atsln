@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "MDES", "MDES\MDES.cproj", "{52D109DF-89F1-4AEF-B370-EF2BB612FAA6}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "line follower", "..\line follower\line follower\line follower.cproj", "{E169DE91-8901-4D8D-88FE-1E8AE8E70594}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "while ground check 1", "..\while ground check 1\while ground check 1\while ground check 1.cproj", "{03D49630-1019-4784-BC82-6332B97A1307}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "GccApplication5", "..\GccApplication5\GccApplication5\GccApplication5.cproj", "{A4812ED8-5176-4D30-94DC-5B69883B87BC}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "GccApplication4", "..\GccApplication4\GccApplication4\GccApplication4.cproj", "{E4507FC3-3388-4AF1-9501-D320EC24DB7A}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "16 bit timer", "..\16 bit timer\16 bit timer\16 bit timer.cproj", "{CF349081-BF8F-45F3-8B0B-4206F572F7B6}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "smg", "..\smg\smg\smg.cproj", "{1D3BEDC5-8AFC-421B-8DEC-C3058B252ADD}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "interrupt+serial", "..\interrupt+serial\interrupt+serial\interrupt+serial.cproj", "{5A3B83EA-BA57-4F9C-9FC8-AF6981F06DD8}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "serial recieve", "..\serial recieve\serial recieve\serial recieve.cproj", "{E788E865-0C3D-4673-A3F7-EFE787061B7B}"
+EndProject
+Project("{18226A42-8477-4023-8AD2-40C49DA407C9}") = "assembly", "..\assembly\assembly\assembly.asmproj", "{486D5A28-AE1B-41A4-B0B2-B12B837D9ABA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52D109DF-89F1-4AEF-B370-EF2BB612FAA6}.Debug|AVR.ActiveCfg = Debug|AVR
+		{52D109DF-89F1-4AEF-B370-EF2BB612FAA6}.Debug|AVR.Build.0 = Debug|AVR
+		{52D109DF-89F1-4AEF-B370-EF2BB612FAA6}.Release|AVR.ActiveCfg = Release|AVR
+		{52D109DF-89F1-4AEF-B370-EF2BB612FAA6}.Release|AVR.Build.0 = Release|AVR
+		{E169DE91-8901-4D8D-88FE-1E8AE8E70594}.Debug|AVR.ActiveCfg = Debug|AVR
+		{E169DE91-8901-4D8D-88FE-1E8AE8E70594}.Release|AVR.ActiveCfg = Release|AVR
+		{E169DE91-8901-4D8D-88FE-1E8AE8E70594}.Release|AVR.Build.0 = Release|AVR
+		{03D49630-1019-4784-BC82-6332B97A1307}.Debug|AVR.ActiveCfg = Debug|AVR
+		{03D49630-1019-4784-BC82-6332B97A1307}.Release|AVR.ActiveCfg = Release|AVR
+		{03D49630-1019-4784-BC82-6332B97A1307}.Release|AVR.Build.0 = Release|AVR
+		{A4812ED8-5176-4D30-94DC-5B69883B87BC}.Debug|AVR.ActiveCfg = Debug|AVR
+		{A4812ED8-5176-4D30-94DC-5B69883B87BC}.Release|AVR.ActiveCfg = Release|AVR
+		{A4812ED8-5176-4D30-94DC-5B69883B87BC}.Release|AVR.Build.0 = Release|AVR
+		{E4507FC3-3388-4AF1-9501-D320EC24DB7A}.Debug|AVR.ActiveCfg = Debug|AVR
+		{E4507FC3-3388-4AF1-9501-D320EC24DB7A}.Release|AVR.ActiveCfg = Release|AVR
+		{E4507FC3-3388-4AF1-9501-D320EC24DB7A}.Release|AVR.Build.0 = Release|AVR
+		{CF349081-BF8F-45F3-8B0B-4206F572F7B6}.Debug|AVR.ActiveCfg = Debug|AVR
+		{CF349081-BF8F-45F3-8B0B-4206F572F7B6}.Release|AVR.ActiveCfg = Release|AVR
+		{CF349081-BF8F-45F3-8B0B-4206F572F7B6}.Release|AVR.Build.0 = Release|AVR
+		{1D3BEDC5-8AFC-421B-8DEC-C3058B252ADD}.Debug|AVR.ActiveCfg = Debug|AVR
+		{1D3BEDC5-8AFC-421B-8DEC-C3058B252ADD}.Release|AVR.ActiveCfg = Release|AVR
+		{1D3BEDC5-8AFC-421B-8DEC-C3058B252ADD}.Release|AVR.Build.0 = Release|AVR
+		{5A3B83EA-BA57-4F9C-9FC8-AF6981F06DD8}.Debug|AVR.ActiveCfg = Debug|AVR
+		{5A3B83EA-BA57-4F9C-9FC8-AF6981F06DD8}.Release|AVR.ActiveCfg = Release|AVR
+		{5A3B83EA-BA57-4F9C-9FC8-AF6981F06DD8}.Release|AVR.Build.0 = Release|AVR
+		{E788E865-0C3D-4673-A3F7-EFE787061B7B}.Debug|AVR.ActiveCfg = Debug|AVR
+		{E788E865-0C3D-4673-A3F7-EFE787061B7B}.Release|AVR.ActiveCfg = Release|AVR
+		{E788E865-0C3D-4673-A3F7-EFE787061B7B}.Release|AVR.Build.0 = Release|AVR
+		{486D5A28-AE1B-41A4-B0B2-B12B837D9ABA}.Debug|AVR.ActiveCfg = Debug|AVR
+		{486D5A28-AE1B-41A4-B0B2-B12B837D9ABA}.Release|AVR.ActiveCfg = Release|AVR
+		{486D5A28-AE1B-41A4-B0B2-B12B837D9ABA}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
